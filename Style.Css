@@ -1,0 +1,138 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, rgb(184, 37, 78), rgb(117, 44, 100));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif,
+    'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
+}
+
+.gameSection {
+  border-radius: 1rem;
+  background-color: rgba(240, 248, 255, 0.3);
+  width: 90rem;
+  height: 55rem;
+  display: flex;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.player {
+  display: grid;
+  grid-template-rows: repeat(2, 50fr);
+  justify-items: center;
+  align-items: center;
+  width: 50%;
+}
+
+.currentScoreSection {
+  padding: 2rem 5rem;
+  border-radius: 10px;
+  background-color: rgb(255, 0, 76);
+}
+
+.current {
+  color: rgb(206, 206, 206);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.currentScore {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.player1Score {
+  text-align: center;
+}
+
+.playerName {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.score {
+  color: rgb(255, 0, 76);
+  font-size: 6rem;
+}
+
+.activePlayer {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.diceImage {
+  width: 9rem;
+}
+
+.btnSection {
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%);
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 100px;
+  padding: 1rem 3rem;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+.btn:hover {
+  cursor: pointer;
+  transform: translatey(10%);
+  transition: transform 0.2s;
+}
+
+.diceImage {
+  margin-top: 5rem;
+  margin-bottom: 15rem;
+}
+.diceBtn {
+  margin-bottom: 1rem;
+}
+
+.rollDiceImage {
+  width: 3rem;
+  margin-right: 1rem;
+}
+
+.clickTransform {
+}
+
+.hidden {
+  display: none;
+}
+.result {
+  width: 25%;
+  border-radius: 10px;
+  z-index: 10;
+  font-size: 7rem;
+  background-color: #928098;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  padding: 9rem 3rem;
+}
+.winner {
+  background-color: rgba(0, 0, 0, 0.563);
+}
