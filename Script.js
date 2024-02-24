@@ -66,7 +66,7 @@ holdBtn.addEventListener('click', function () {
     if (player1.classList.contains('activePlayer')) {
       player1endScore += player1Current;
       player1Score.textContent = player1endScore;
-      if (player1endScore >= 20) {
+      if (player1endScore >= 100) {
         diceImage.classList.add('hidden');
         player1.classList.add('winner');
         playing = 0;
