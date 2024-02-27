@@ -8,29 +8,36 @@
   </head>
   <body>
     <section class="gameSection">
-      <section class="player player1 activePlayer">
-        <div>
-          <p class="playerName" id="player1Name">Player 1</p>
-          <p class="score" id="player1Score">80</p>
-        </div>
-        <div class="currentScoreSection">
-          <p class="current">Current</p>
-          <p class="currentScore" id="player1CurrentScore">0</p>
-        </div>
-      </section>
-      <section class="player player2">
-        <div>
-          <p class="playerName" id="player2Name">Player 2</p>
-          <p class="score" id="player2Score">100</p>
-        </div>
-        <div class="currentScoreSection">
-          <p class="current">Current</p>
-          <p class="currentScore" id="player2CurrentScore">0</p>
-        </div>
-      </section>
-      <section class="btnSection">
+      <div class="newGameBtnSection">
         <button class="btn newGameBtn">🔁 New Game</button>
+      </div>
+      <section class="gameArea">
+        <section class="player player1 activePlayer">
+          <div>
+            <p class="playerName" id="player1Name">Player 1</p>
+            <p class="score" id="player1Score">80</p>
+          </div>
+          <div class="currentScoreSection">
+            <p class="current">Current</p>
+            <p class="currentScore" id="player1CurrentScore">0</p>
+          </div>
+        </section>
+        <section class="player player2">
+          <div>
+            <p class="playerName" id="player2Name">Player 2</p>
+            <p class="score" id="player2Score">100</p>
+          </div>
+          <div class="currentScoreSection">
+            <p class="current">Current</p>
+            <p class="currentScore" id="player2CurrentScore">0</p>
+          </div>
+        </section>
         <img class="diceImage" src="Dice Images/dice-1.png" alt="Dice Image" />
+
+        <div class="result hidden">Player ? win</div>
+      </section>
+
+      <section class="btnSection">
         <button class="btn diceBtn">
           <img
             class="rollDiceImage"
@@ -41,7 +48,6 @@
         </button>
         <button class="btn holdBtn">📥 Hold</button>
       </section>
-      <div class="result hidden">Player ? win</div>
     </section>
   </body>
   <script src="Script.js"></script>
