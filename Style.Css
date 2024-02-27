@@ -14,6 +14,9 @@ body {
     Verdana, sans-serif;
 }
 
+.gameSection {
+  margin-top: 3rem;
+}
 .gameArea {
   border-radius: 1rem;
   background-color: rgba(240, 248, 255, 0.3);
@@ -58,6 +61,7 @@ body {
 .playerName {
   font-size: 4rem;
   text-transform: uppercase;
+  color: #8f7697;
 }
 
 .score {
@@ -94,6 +98,7 @@ body {
   display: flex;
   justify-content: center;
   text-transform: uppercase;
+  color: #928098;
 }
 .btn:hover {
   cursor: pointer;
@@ -138,7 +143,7 @@ body {
 
 @media screen and (max-width: 780px) {
   .gameArea {
-    width: 35rem;
+    width: 90vw;
     height: 45rem;
   }
   .currentScoreSection {
