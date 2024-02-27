@@ -139,13 +139,16 @@ body {
 @media screen and (max-width: 780px) {
   .gameArea {
     width: 35rem;
-    height: 50rem;
+    height: 45rem;
   }
   .currentScoreSection {
     padding: 0.2rem 2rem;
   }
   .playerName {
     font-size: 3rem;
+  }
+  .diceImage {
+    width: 7.5rem;
   }
 }
 
