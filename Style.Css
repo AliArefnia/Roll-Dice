@@ -30,10 +30,11 @@ body {
 
 .player {
   display: -webkit-flex;
-  justify-content: space-between;
+  -webkit-justify-content: space-between;
   align-items: center;
   flex-direction: column;
   width: 50%;
+  flex: 1 0 auto;
 }
 
 .playerId {
