@@ -160,6 +160,13 @@ body {
   .diceImage {
     width: 7.5rem;
   }
+  .player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 780px) {
