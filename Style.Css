@@ -29,7 +29,7 @@ body {
 }
 
 .player {
-  display: flex;
+  display: -webkit-flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
@@ -159,13 +159,6 @@ body {
   }
   .diceImage {
     width: 7.5rem;
-  }
-  .player {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    width: 50%;
   }
 }
 
