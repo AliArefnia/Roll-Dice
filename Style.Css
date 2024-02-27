@@ -14,6 +14,10 @@ body {
     Verdana, sans-serif;
 }
 
+p {
+  margin: 0;
+}
+
 .gameSection {
   margin-top: 3rem;
 }
@@ -30,11 +34,10 @@ body {
 
 .player {
   display: -webkit-flex;
-  -webkit-justify-content: space-between;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
   width: 50%;
-  flex: 1 0 auto;
 }
 
 .playerId {
@@ -68,6 +71,7 @@ body {
   font-size: 4rem;
   text-transform: uppercase;
   color: #8f7697;
+  margin: 0;
 }
 
 .score {
