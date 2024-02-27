@@ -29,14 +29,19 @@ body {
 }
 
 .player {
-  display: grid;
-  grid-template-rows: repeat(2, 50fr);
-  justify-items: center;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  flex-direction: column;
   width: 50%;
 }
 
+.playerId {
+  margin: 3rem 0;
+}
+
 .currentScoreSection {
+  margin: 3rem 0;
   padding: 2rem 5rem;
   border-radius: 10px;
   background-color: rgb(255, 0, 76);
